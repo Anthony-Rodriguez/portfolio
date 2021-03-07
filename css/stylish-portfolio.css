@@ -19,7 +19,6 @@ body {
 }
 
 .content-section {
-  background-color: #FBFBFB;
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
 }
@@ -84,6 +83,10 @@ h6 {
 
 .scroll-to-top i {
   font-weight: 800;
+}
+
+.shadow {
+  text-shadow: 0.05em 0 #000, 0 0.05em #000, -0.05em 0 #000, 0 -0.05em #000, -0.05em -0.05em #000, -0.05em 0.05em #000, 0.05em -0.05em #000, 0.05em 0.05em #000;
 }
 
 .masthead {
@@ -208,7 +211,7 @@ h6 {
   width: 7rem;
   display: block;
   line-height: 7.5rem;
-  font-size: 2.25rem;
+  font-size: 4.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -257,8 +260,8 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content p {
-  font-weight: 300;
-  font-size: 1.2rem;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 
 @media (min-width: 992px) {
@@ -313,7 +316,7 @@ footer.footer .social-link {
   height: 4rem;
   width: 4rem;
   line-height: 4.3rem;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   background-color: #1D809F;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);

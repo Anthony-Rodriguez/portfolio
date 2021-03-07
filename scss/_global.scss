@@ -1,3 +1,5 @@
+$shadow: #000;
+
 body,
 html {
   width: 100%;
@@ -86,4 +88,16 @@ h6 {
   i {
     font-weight: 800;
   }
+}
+
+.shadow {
+  text-shadow:
+  .05em 0 $shadow,
+  0 .05em $shadow,
+  -.05em 0 $shadow,
+  0 -.05em $shadow,
+  -.05em -.05em $shadow,
+  -.05em .05em $shadow,
+  .05em -.05em $shadow,
+  .05em .05em $shadow;
 }
