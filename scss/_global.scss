@@ -1,4 +1,4 @@
-$shadow: #000;
+$shadow: #fff;
 
 body,
 html {
@@ -90,7 +90,7 @@ h6 {
   }
 }
 
-.shadow {
+.white-shadow {
   text-shadow:
   .05em 0 $shadow,
   0 .05em $shadow,

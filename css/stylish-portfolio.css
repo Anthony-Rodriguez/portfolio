@@ -85,8 +85,8 @@ h6 {
   font-weight: 800;
 }
 
-.shadow {
-  text-shadow: 0.05em 0 #000, 0 0.05em #000, -0.05em 0 #000, 0 -0.05em #000, -0.05em -0.05em #000, -0.05em 0.05em #000, 0.05em -0.05em #000, 0.05em 0.05em #000;
+.white-shadow {
+  text-shadow: 0.05em 0 #fff, 0 0.05em #fff, -0.05em 0 #fff, 0 -0.05em #fff, -0.05em -0.05em #fff, -0.05em 0.05em #fff, 0.05em -0.05em #fff, 0.05em 0.05em #fff;
 }
 
 .masthead {
